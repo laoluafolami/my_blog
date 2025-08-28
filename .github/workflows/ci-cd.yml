@@ -27,6 +27,12 @@ jobs:
       - name: Test build
         run: bundle exec jekyll build
 
+      - name: Make test script executable
+        run: chmod +x ./script/test
+        
+      - name: Run test script
+        run: ./script/test
+        
       - name: Run tests
         run: ./script/test
           gem install html-proofer
