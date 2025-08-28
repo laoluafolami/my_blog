@@ -1,0 +1,1 @@
+---\ntitle: 'My First CI/CD Post'\nlayout: post\ndate: 2025-08-28\n---\n\nThis blog is automatically deployed using GitHub Actions!
